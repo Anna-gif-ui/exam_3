@@ -323,9 +323,245 @@
           </div>
         </div>
       </section>
-      <section></section>
+      <section>
+        <div class="container">
+          <h2 class="text-center my-3">Популярные предложения</h2>
+          <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 row-cols-xs-1 g-3 g-md-4 my-4">
+            <div class="col">
+              <div href="#" class="card h-100 p-2">
+                <span class="popular-sign badge-md px-4 py-1 bg-primary rounded-pill rounded-left text-center d-flex align-items-center">
+                  <span class="text-white font-weight-bold small mx-auto">-21%</span>
+                </span>
+                <a href="#" class="card-img__wrap">
+                  <img src="img/batmobile.jpg" class="img card__img img-fluid" alt="Batman Lego Constructor">
+                </a>
+                
+                <div class="card-body my-1">
+                  <button type="button" class="btn btn-link btn-sm pl-0">Lego</button>
+                  <h6 class="card-title text-black py-1 title-height text-truncate">The Ultimate Batmobile</h6>
+                  <div class="d-flex flex-row justify-content-between properties py-2 mt-3">
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="14">
+                        <use xlink:href="#code"></use>
+                      </svg>
+                      <span class="text-black">33859</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#amount"></use>
+                      </svg>
+                      <span class="text-black">16</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#gingerman"></use>
+                      </svg>
+                      <span class="text-black">0+</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-baseline mt-2 px-1">
+                    <div class="price">
+                      <span class="text-danger font-weight-bold">2 940</span>
+                      <span class="text-danger small font-weight-light align-top">грн</span>
+                    </div>
+                    <div>
+
+                        <button @click="addA()" class="btn btn-link"> 
+                          <svg class="fill-success like" width="20" height="20">
+                            <use xlink:href="#heart"></use>
+                          </svg>
+                        </button>
+                        <button @click="addB()" class="btn btn-link">
+                          <svg class="fill-black" width="20" height="20">
+                            <use xlink:href="#cart"></use>
+                          </svg> 
+                         </button>
+                    </div>
+                </div>
+                <div class="price-former px-1 mb-1">
+                  <span class="text-dark small text-decoration-line-through">3 500</span>
+                  <span class="text-dark small font-weight-light align-top">грн</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div href="#" class="card h-100 p-2">
+                <span class="popular-sign badge-md px-4 py-1 bg-primary rounded-pill rounded-left text-center d-flex align-items-center">
+                  <span class="text-white small font-weight-bold mx-auto">-16%</span>
+                </span>
+                <a href="#" class="card-img__wrap">
+                  <img src="img/magnicon.jpg" class="card-img-top card__img img-fluid" alt="BMagnetic Constructor">
+                </a>
+                
+                <div class="card-body my-1">
+                  <button type="button" class="btn btn-link btn-sm pl-0">Magnicon</button>
+                  <h6 class="card-title text-black py-1 title-height text-truncate">Магнитный конструктор</h6>
+                  <div class="d-flex flex-row justify-content-between properties py-2 mt-3">
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="14">
+                        <use xlink:href="#code"></use>
+                      </svg>
+                      <span class="text-black">70917</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#amount"></use>
+                      </svg>
+                      <span class="text-black">165</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#gingerman"></use>
+                      </svg>
+                      <span class="text-black">10+</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-baseline mt-2 px-1">
+                    <div class="price">
+                      <span class="text-danger font-weight-bold">1 120</span>
+                      <span class="text-danger small font-weight-light align-top">грн</span>
+                    </div>
+                    <div>
+                        <button @click="addA" class="btn btn-link"> 
+                          <svg class="fill-success" width="20" height="20">
+                            <use xlink:href="#heart"></use>
+                          </svg>
+                        </button>
+                        <button @click="addB" class="btn btn-link">
+                          <svg class="fill-black" width="20" height="20">
+                            <use xlink:href="#cart"></use>
+                          </svg> 
+                         </button>
+                    </div>
+                </div>
+                <div class="price-former px-1 mb-1">
+                  <span class="text-dark small text-decoration-line-through">1 120</span>
+                  <span class="text-dark small font-weight-light align-top">грн</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div href="#" class="card h-100 p-2">
+                <span class="popular-sign badge-md px-4 py-1 bg-primary rounded-pill rounded-left text-center d-flex align-items-center">
+                  <span class="text-white font-weight-bold small mx-auto">-50%</span>
+                </span>
+                <a href="#" class="card-img__wrap">
+                  <img src="img/ugearmoto.jpg" class="card-img-top card__img img-fluid" alt="Batman Lego Constructor">
+                </a>
+                
+                <div class="card-body my-1">
+                  <button type="button" class="btn btn-link btn-sm pl-0">Ugear</button>
+                  <h6 class="card-title text-black py-1 title-height text-truncate">The Ultimate Batmobile</h6>
+                  <div class="d-flex flex-row justify-content-between properties py-2 mt-3">
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="14">
+                        <use xlink:href="#code"></use>
+                      </svg>
+                      <span class="text-black">90876</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#amount"></use>
+                      </svg>
+                      <span class="text-black">560</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#gingerman"></use>
+                      </svg>
+                      <span class="text-black">9+</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-baseline mt-2 px-1">
+                    <div class="price">
+                      <span class="text-danger font-weight-bold">2 000</span>
+                      <span class="text-danger small font-weight-light align-top">грн</span>
+                    </div>
+                    <div>
+                        <button v-on:click="a++" class="btn btn-link"> 
+                          <svg class="fill-success" width="20" height="20">
+                            <use xlink:href="#heart"></use>
+                          </svg>
+                        </button>
+                        <button @click="addB" class="btn btn-link">
+                          <svg class="fill-black" width="20" height="20">
+                            <use xlink:href="#cart"></use>
+                          </svg> 
+                         </button>
+                    </div>
+                </div>
+                <div class="price-former px-1 mb-1">
+                  <span class="text-dark small text-decoration-line-through">4 000</span>
+                  <span class="text-dark small font-weight-light align-top">грн</span>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div href="#" class="card h-100 p-2">
+                <span class="popular-sign badge-md px-4 py-1 bg-primary rounded-pill rounded-left text-center d-flex align-items-center">
+                  <span class="text-white font-weight-bold small mx-auto">-21%</span>
+                </span>
+                <a href="#" class="card-img__wrap">
+                  <img src="img/batmobile.jpg" class="card-img-top card__img img-fluid" alt="Batman Lego Constructor">
+                </a>
+                
+                <div class="card-body my-1">
+                  <button type="button" class="btn btn-link btn-sm pl-0">Lego</button>
+                  <h6 class="card-title text-black py-1 title-height text-truncate">My Funny Pets</h6>
+                  <div class="d-flex flex-row justify-content-between properties py-2 mt-3">
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="14">
+                        <use xlink:href="#code"></use>
+                      </svg>
+                      <span class="text-black">10858</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#amount"></use>
+                      </svg>
+                      <span class="text-black">18</span>
+                    </div>
+                    <div class="property">
+                      <svg class="fill-dark" width="16" height="16">
+                        <use xlink:href="#gingerman"></use>
+                      </svg>
+                      <span class="text-black">0+</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-baseline mt-2 px-1">
+                    <div class="price">
+                      <span class="text-danger font-weight-bold">221</span>
+                      <span class="text-danger small font-weight-light align-top">грн</span>
+                    </div>
+                    <div>
+                        <button v-on:click="a++" class="btn btn-link"> 
+                          <svg class="fill-success" width="20" height="20">
+                            <use xlink:href="#heart"></use>
+                          </svg>
+                        </button>
+                        <button @click="addB" class="btn btn-link">
+                          <svg class="fill-black" width="20" height="20">
+                            <use xlink:href="#cart"></use>
+                          </svg> 
+                         </button>
+                    </div>
+                </div>
+                <div class="price-former px-1 mb-1">
+                  <span class="text-dark small text-decoration-line-through">274</span>
+                  <span class="text-dark small font-weight-light align-top">грн</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
      
       <section id="brand" class="my-2"> 
+        <h2 class="text-center mb-5">Бренды</h2>
         <div class="container">
           <div id="#carousel-brands" class="carousel slide carousel-multi-item" data-ride="carousel">
             <a class="carousel-control-prev" href="#carousel-brands" role="button" data-slide="prev">
@@ -344,7 +580,6 @@
               <div class="carousel-item active">
       
                 <div class="row">
-                  
                   <div class="col-md-3">
                     <div class="card-img__wrap card-img__wrap-brand mb-2">
                       <img class="card__img" src="img/alogounchems.jpg"
@@ -353,21 +588,21 @@
                   </div>
                   <div class="col-md-3 clearfix d-none d-md-block">
                     <div class="card-img__wrap card-img__wrap-brand mb-2">
-                      <img class="card__img" src="img/alogojears.jpg"
-                        alt="Jears Logo">
+                      <img class="card__img" src="img/alogolego.jpg"
+                        alt="Lego Logo">
                     </div>
                   </div>
                   <div class="col-md-3 clearfix d-none d-md-block">
                     <div class="card-img__wrap card-img__wrap-brand mb-2">
-                      <img class="card__img" src="img/alogolego.jpg"
-                        alt="lego Logo">
+                      <img class="card__img" src="img/alogoplaymobil.jpg"
+                        alt="Playmobil Logo">
                     </div>
                   </div>
       
                   <div class="col-md-3 clearfix d-none d-md-block">
                     <div class="card-img__wrap card-img__wrap-brand mb-2">
-                      <img class="card__img" src="img/alogoplaymobil.jpg"
-                        alt="Playmobil Logo">
+                      <img class="card__img" src="img/alogolego.jpg"
+                        alt="Lego Logo">
                     </div>
                   </div>
                 </div>
@@ -414,29 +649,28 @@
       
                 <div class="row">
                   <div class="col-md-3">
-                    <div class="card-img__wrap card-img__wrap-brand">
+                    <div class="card-img__wrap card-img__wrap-brand mb-2">
+                      <img class="card__img" src="img/alogounchems.jpg"
+                        alt="Bouchems Logo">
+                    </div>
+                  </div>
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card-img__wrap card-img__wrap-brand mb-2">
+                      <img class="card__img" src="img/alogolego.jpg"
+                        alt="Lego Logo">
+                    </div>
+                  </div>
+                  <div class="col-md-3 clearfix d-none d-md-block">
+                    <div class="card-img__wrap card-img__wrap-brand mb-2">
                       <img class="card__img" src="img/alogoplaymobil.jpg"
                         alt="Playmobil Logo">
                     </div>
                   </div>
       
                   <div class="col-md-3 clearfix d-none d-md-block">
-                    <div class="card-img__wrap card-img__wrap-brand">
-                      <img class="card__img" src="img/alogojears.jpg"
-                        alt="Jears Logo">
-                    </div>
-                  </div>
-      
-                  <div class="col-md-3 clearfix d-none d-md-block">
-                    <div class="card-img__wrap card-img__wrap-brand">
-                      <img class="card__img" src="img/alogocubik.jpg"
-                        alt="Cubik Logo">
-                    </div>
-                  </div>
-                  <div class="col-md-3 clearfix d-none d-md-block">
-                    <div class="card-img__wrap card-img__wrap-brand">
-                      <img class="card__img" src="img/alogojears.jpg"
-                        alt="Jears Logo">
+                    <div class="card-img__wrap card-img__wrap-brand mb-2">
+                      <img class="card__img" src="img/alogolego.jpg"
+                        alt="Lego Logo">
                     </div>
                   </div>
                 </div>
@@ -449,9 +683,9 @@
         </div>
       </section>
 
-      <section>
+      <section class="my-2">
         <div class="container bg-warning py-5 px-4 rounded-lg text-white">
-          <h2 class="h5 text-left my-3">Мы подскажем вам что подарить ребенку:</h2>
+          <!-- <h2 class="h5 text-left my-3">Мы подскажем вам что подарить ребенку:</h2> -->
           <div class="row my-3">
             <div class="col col-lg-3 col-md-3">
               <h6 class="h6 my-3">Пол ребенка:</h6>
@@ -470,12 +704,19 @@
             </div>
 
             <div class="col col-lg-3 col-md-3">
-              <input id="ex16b" type="text"/><br/>
+              <h6 class="h6 my-3">Возраст:</h6>
+              <input id="ex13" type="text" data-slider-ticks="[0, 1, 7, 10, 16]" data-slider-ticks-snap-bounds="30" data-slider-ticks-labels='["$0", "$100", "$200", "$300", "$400"]'/>
             </div>
-            <div class="col col-lg-3 col-md-3"></div>
+
+            <div class="col col-lg-3 col-md-3">
+              <h6 class="h6 my-3">Цена:</h6>
+              <span id="ex18-label-2a" class="sr-only"> 1 </span>
+              <span id="ex18-label-2b" class="sr-only">50 000</span>
+              <input id="ex18b" type="text"/>
+            </div>
             <div class="col col-lg-3 col-md-3">
               <h6 class="h6 my-3">Бренд:</h6>
-              <div class="dropdown mt-3">
+              <div class="dropdown mt-5">
                 <a class="btn btn-light btn-block small font-weight-lighе dropdown-toggle text-dark" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-expanded="false">
                   Не выбран
                 </a>

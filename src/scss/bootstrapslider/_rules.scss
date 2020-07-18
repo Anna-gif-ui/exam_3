@@ -9,7 +9,7 @@
       height: $slider-line-height/2;
       width: 100%;
       margin-top: -$slider-line-height/4;
-      top:  50%;
+      top: 50%;
       left: 0;
     }
     .slider-selection, .slider-track-low, .slider-track-high {
@@ -142,14 +142,16 @@
   .bs-tooltip-bottom {
     .tooltip-inner {
       position: relative;
-      left: -50%;
+      bottom: 0%;
+      left: 18%;
+      
     }
   }
   &.bs-tooltip-left,
   &.bs-tooltip-right {
     .tooltip-inner {
       position: relative;
-      top: -100%;
+      bottom: 0%;
     }
   }
 
@@ -163,7 +165,10 @@
       }
     }
     &.bs-tooltip-top {
-      margin-top: -44px;
+      margin-top: 37px;
+     
+
+      // margin-top: -44px;
     }
     &.bs-tooltip-bottom {
       margin-top: 2px;

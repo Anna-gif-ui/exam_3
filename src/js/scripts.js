@@ -41,11 +41,15 @@ let app = new Vue({
 
 })
 
-// var mySlider = new Slider("input.slider", {
+var sliderB = new Slider("#ex18b", {
+	min: 0,
+	max: 50000,
+	value: [3, 6],
+	labelledby: ['ex18-label-2a', 'ex18-label-2b']
+});
 
-// });
-
-
-
-
-
+var slider = new Slider("#ex13", {
+    ticks: [1, 3, 7, 10, 16],
+    ticks_labels: [],
+    ticks_snap_bounds: 30
+});

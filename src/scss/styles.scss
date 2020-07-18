@@ -100,6 +100,11 @@ section {
     z-index: 100;
 }
 
+.popular-sign{
+    @include posA($top: 3%, $left: 0%, $delta_x: null, $delta_y: null);
+    z-index: 100;
+}
+
 .price-former {
     margin-top: -10px;
 }
@@ -116,33 +121,14 @@ section {
     }  
 }
 
-.favoriting{
-    display: inline-block
+.tooltip-inner{
+    font-size: 20px;
+    font-weight: bold;
+    color: $black;  
 }
-.favorite__heart {
-    display: inline-block;
-    padding: 3px;
-    vertical-align: middle;
-    line-height: 1;
-    font-size: 16px;
-    color: #ABABAB;
-    cursor: pointer;
-    -webkit-transition: color .2s ease-out;
-    transition: color .2s ease-out;
+
+.tooltip.bs-tooltip-top{
+    background-color: #fff;
+    border-radius: 5px; 
 }
-.favorite__heart.is-disabled:hover {
-     cursor: default;
- }
-.favorite__checkbox {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    width: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-}
-.favorite__heart__selected{
-    color: #df470b;
-}
+

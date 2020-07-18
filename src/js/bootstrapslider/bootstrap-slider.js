@@ -877,7 +877,7 @@ const windowIsDefined = (typeof window === "object");
 				enabled: true,
 				formatter: function(val) {
 					if (Array.isArray(val)) {
-						return val[0] + " : " + val[1];
+						return "   " + val[0] + "   до   " + val[1] + "    ";
 					} else {
 						return val;
 					}
